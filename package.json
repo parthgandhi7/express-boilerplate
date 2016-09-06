@@ -1,0 +1,25 @@
+{
+  "name": "express-bolerplate",
+  "version": "1.0.0",
+  "description": "This is a simple user crud in express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0",
+    "pug": "^2.0.0-beta6",
+    "q": "^1.4.1",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jscs": "^3.0.1"
+  }
+}
